@@ -81,28 +81,28 @@ class My_Custom_Keys extends Plugin {
         // $hotkeys["(40)|down"]  = "article_scroll_down";
       $hotkeys = array();
 
-      $hotkeys["*(191)|?"] = "help_dialog";
+      $hotkeys["?"] = "help_dialog";
       $hotkeys["h"] = "help_dialog";
-      $hotkeys["*j"] = "next_feed";
-      $hotkeys["*k"] = "prev_feed";
+      $hotkeys["J"] = "next_feed";
+      $hotkeys["K"] = "prev_feed";
       $hotkeys["j"] = "next_article_noscroll";
       $hotkeys["k"] = "prev_article_noscroll";
       $hotkeys["r"] = "feed_refresh";
-      $hotkeys["(13)|Enter"] = "open_in_new_window";
+      $hotkeys["\r|Enter"] = "open_in_new_window";
       $hotkeys["o"] = "open_in_new_window";
       $hotkeys["n"] = "next_article_noexpand";
       $hotkeys["p"] = "prev_article_noexpand";
       $hotkeys["v"] = "open_in_new_window";
-      $hotkeys["*m"] = "feed_catchup";
+      $hotkeys["M"] = "feed_catchup";
       $hotkeys["m"] = "toggle_unread";
       $hotkeys["s"] = "toggle_mark";
-      $hotkeys["(32)|space"] = "article_scroll_down";
+      $hotkeys[" |space"] = "article_scroll_down";
       $hotkeys["/"] = "search_dialog";
       $hotkeys["t"] = "edit_tags";
-      $hotkeys["(40)|down"] = "article_scroll_down";
-      $hotkeys["(38)|up"] = "article_scroll_up";
+      $hotkeys["down"] = "article_scroll_down";
+      $hotkeys["up"] = "article_scroll_up";
       $hotkeys["e"] = "email_article";
-      $hotkeys["*s"] = "feed_subscribe";
+      $hotkeys["S"] = "feed_subscribe";
 
       return $hotkeys;
 
